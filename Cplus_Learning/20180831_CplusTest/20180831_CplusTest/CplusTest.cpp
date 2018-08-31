@@ -1,0 +1,14 @@
+#include<iostream>
+#include<cstdio>
+using namespace std;
+
+int main()
+{
+	char ulTemp[100] = {0};
+
+	while (gets_s(ulTemp, 100) != NULL)
+	{
+		printf(" ‰»Î÷µŒ™£∫%s\n", ulTemp);
+	}
+	return 0;
+}
